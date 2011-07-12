@@ -3,7 +3,7 @@
 Plugin Name: 404 sponsoring
 Description: Support your favorite charity!
 Author: Jeroen Smeets
-Version: 1.2
+Version: 1.3
 Plugin URI: http://404sponsoring.info/
 Author URI: http://jeroensmeets.net/
 License: GPL2
@@ -59,6 +59,7 @@ function spons_set_plugin_meta($links, $file) {
 }
 
 add_filter('plugin_action_links', 'spons_set_plugin_meta', 10, 2);
+
 ///////////////////
 // Configuration //
 ///////////////////
@@ -137,6 +138,8 @@ function spons_options() {
     closedir($handle);
   }
 
+  sort($_404s);
+
   if (0 == count($_404s)) {
     echo "<p>Sorry, no 404 pages found.</p>";
     return false;
@@ -171,7 +174,7 @@ function spons_options() {
 ?>       
         </ul>
 
-        <img src="<?php echo plugins_url() . '/404sponsoring/404pages/' . $options['charity']; ?>/screenshot.png" alt="" />
+        <img src="<?php echo plugins_url() . '/404sponsoring/404pages/' . $options['charity']; ?>/screenshot.jpg" alt="sample image of 404 page" />
       </div>
 
       <input class='button-primary' type="submit" id="sponssubmit" name="spons-submit" value="Submit" />

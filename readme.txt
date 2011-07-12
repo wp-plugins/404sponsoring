@@ -1,9 +1,9 @@
-=== 404 Sponsoring ===
+=== 404sponsoring ===
 Contributors: jeroensmeets
-Tags: plugin
+Tags: plugin, 404
 Requires at least: 3.0
 Tested up to: 3.2
-Stable tag: 1.2
+Stable tag: 1.3
 
 Support your favorite charity!
 
@@ -11,11 +11,11 @@ Support your favorite charity!
 
 = Nederlands =
 
-Fijn dat je overweegt de 404SPONSORING plugin te installeren. Hiermee kan je een goed doel sponsoren met je 404 pagina. Voorlopig zijn dat de Nierstichting en de Bart de Graaff Foundation.
+Fijn dat je overweegt de 404SPONSORING plugin te installeren. Hiermee kan je een goed doel sponsoren met je 404 pagina. Voorlopig zijn dat de Nierstichting, de Bart de Graaff Foundation, Ik Kom In Actie en Books 4 Life.
 
 = English =
 
-Glad you're considering installing the 404SPONSORING plugin. This allows you to sponsor a charity with your 404 page. At this moment, the charity organisations that are available are the Dutch Kidney Foundation (Nierstichting) and the Bart de Graaff Foundation.
+Glad you're considering installing the 404SPONSORING plugin. This allows you to sponsor a charity with your 404 page. At this moment, the charity organisations that are available are the Dutch Kidney Foundation (Nierstichting), the Bart de Graaff Foundation, Ik Kom In Actie and Books 4 Life.
 
 
 == Installation ==
