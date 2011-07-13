@@ -3,7 +3,7 @@ Contributors: jeroensmeets
 Tags: plugin, 404
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 
 Support your favorite charity!
 
@@ -30,6 +30,10 @@ There's little to configure for this plugin. After installation, you will find a
 
 
 == Changelog ==
+
+= 1.3.2 =
+
+bug fixed in version 1.3.1 wasn't fixed, now it is.
 
 = 1.3.1 =
 
